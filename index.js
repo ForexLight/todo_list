@@ -24,7 +24,7 @@ app.use(todoRoutes)
 async function start() {
   try {
     await mongoose.connect(
-        'mongodb+srv://vlad:vlad@cluster0.gpaha.mongodb.net/todos',
+        '',
     )
     app.listen(PORT, () => {
       console.log('Server has been started...')
